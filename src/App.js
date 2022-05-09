@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import React, {useState, Component} from 'react'
 import './App.css';
+import background from "./Images/road-bg.webp";
+import deer from "./Images/gifntext-gif.gif";
+
+import Movingtext from "./components/Movingtext";
+
+import ImageFadeIn from "react-image-fade-in";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App"
+           style={{
+             backgroundImage: "url(" + background + ")",
+             backgroundSize: "cover",
+             height: "100vh",
+           }}>
+        <header className="App-header">
+          <ImageFadeIn width={640} height={480} opacityTransition={3} src={deer} />
+          <Movingtext/>
+        </header>
+      </div>
   );
 }
 

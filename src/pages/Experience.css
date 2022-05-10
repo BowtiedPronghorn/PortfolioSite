@@ -1,0 +1,39 @@
+.Container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: slategray;
+    padding: 10vh;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.fade-list-item {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 5000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+p {
+    color: black;
+    text-decoration: underline;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -15,11 +15,11 @@ const Menu = () => {
                         <div class={"Divider"}></div>
                         <ul>
                             <li><a href={'/'}>Home</a></li>
-                            <li><a href={'/'}>About</a></li>
-                            <li><a href={'/'}>Experience</a></li>
-                            <li><a href={'/'}>Portfolio</a></li>
-                            <li><a href={'/'}>Intersts</a></li>
-                            <li><a href={'/'}>Socials</a></li>
+                            <li><a href={'/About'}>About</a></li>
+                            <li><a href={'/Experience'}>Experience</a></li>
+                            <li><a href={'/Portfolio'}>Portfolio</a></li>
+                            <li><a href={'/Interests'}>Intersts</a></li>
+                            <li><a href={'/Socials'}>Socials</a></li>
                         </ul>
                     </div>)
                 }

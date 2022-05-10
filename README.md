@@ -1,5 +1,10 @@
 # Portfolio Site
+Github repo for portfolio website. The goal of this website is
+to act as a digital resume.
 
+# Demo
+Wireframe
+!['Wireframe'](./Wireframe.png)
 
-Burger menu:
-- https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
+Homepage
+!['Demo'](./PortfolioDemo.gif)

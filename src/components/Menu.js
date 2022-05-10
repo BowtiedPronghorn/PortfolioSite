@@ -5,7 +5,6 @@ import { Pivot as Hamburger } from 'hamburger-react'
 
 
 const Menu = () => {
-<<<<<<< HEAD
     const [menuComponent, setMenu] = useState(<div></div>)
     return (
             <div>
@@ -28,20 +27,6 @@ const Menu = () => {
                     setMenu(<div class={"Nobar"}></div>)
                 }
             }} />
-=======
-    const [menuComponent, setMenu] = useState("")
-    return (
-            <div>
-            <Hamburger rounded size={48} color={'white'} distance={'lg'} onToggle={toggled => {
-                if (toggled) {
-                    setMenu('Weenis')
-                }
-                else {
-                    setMenu("")
-                }
-            }} />
-                <h1>{menuComponent}</h1>
->>>>>>> d368bc4da0c27f406f1c03154468cc19645067b8
             </div>
     );
 };

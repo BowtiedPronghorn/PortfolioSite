@@ -9,6 +9,7 @@
     text-align: center;
     animation-timing-function: linear;
     transition: all 750ms;
+    z-index: 100;
 }
 
 .Nobar {

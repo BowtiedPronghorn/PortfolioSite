@@ -31,7 +31,8 @@ function Interests() {
     function openFitness() {
         setFitness(<div className={"popup"} onClick={closeDiv}>
             <span>
-                Fitness text placeholder
+                    A great hobby of mine is fitness. I have always been very active and always continue to exercise
+                multiple times per week. I find it a great way to unwind and to connect with my friends.
             </span>
         </div>)
     }
@@ -39,7 +40,8 @@ function Interests() {
     function openCooking() {
         setCooking(<div className={"popup"} onClick={closeDiv}>
             <span>
-                Cooking text placeholder
+                    Ever since I discovered a recipe for tuna steaks I fell in love with cooking. I now take great
+                pleasure in making my own bagels and cooking for friends and family.
             </span>
         </div>)
     }
@@ -47,7 +49,11 @@ function Interests() {
     function openTravelling() {
         setTravelling(<div className={"popup"} onClick={closeDiv}>
             <span>
-                Travelling text placeholder
+                    One of the biggest reasons why I initially went into software development was for the possibility
+                of working online and travelling. Now, thanks to recent developments, I am truly free to travel as much
+                as I would like while working. Every year I will leave for a few months to half a year to experience
+                life in a new country. This has broadened my horizon and brought me in touch with some incredible people.<br/><br/>
+                I hope to spend a long time working and living this way.
             </span>
         </div>)
     }
